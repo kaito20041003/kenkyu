@@ -1,0 +1,67 @@
+Python Class Dependency Analysis Log
+====================================
+generated_at: 2026-07-13T03:46:08.803859+00:00
+config_file: /home/ota/PythonClassNetworkAnalysis/parse_config_pytorch-1.0.0_nn_full_scope_design_layers.yaml
+project_root: /home/ota
+
+indexed_modules: 57
+indexed_classes: 158
+output_nodes: 179
+output_edges: 330
+unresolved_refs: 0
+
+traversal_mode: full_scope
+edge_profile: design_layers
+
+file_patterns:
+  - *.py
+  - *.pyi
+
+scope:
+  include_packages: ['torch.nn']
+  exclude_packages: ['tests', 'test', 'benchmarks']
+
+dependency_options:
+  inheritance: True
+  type_annotations: True
+  attribute_annotations: True
+  constructor_calls: True
+  class_attributes: True
+  imports: False
+  method_calls: False
+  string_annotations: True
+
+edge_type_counts:
+  constructor_call_composition: 59
+  constructor_call_exception: 82
+  constructor_call_external: 23
+  constructor_call_temporary: 14
+  inheritance: 152
+
+base_edge_type_counts:
+  constructor_call: 178
+  inheritance: 152
+
+dependency_layer_counts:
+  composition: 59
+  control_flow_or_error: 82
+  external_dependency: 23
+  inheritance: 152
+  temporary_object: 14
+
+class_attribute_ignore_patterns:
+  - _parameter_constraints
+  - *._parameter_constraints
+  - __metadata_request__*
+  - *.UNUSED
+  - metadata_routing.*
+  - *.metadata_routing.*
+
+outputs:
+  graph_json: /home/ota/analysis_output_pytorch-1.0.0_nn_full_scope_design_layers/graph.json
+  unresolved_json: /home/ota/analysis_output_pytorch-1.0.0_nn_full_scope_design_layers/unresolved.json
+  nodes_csv: /home/ota/analysis_output_pytorch-1.0.0_nn_full_scope_design_layers/nodes.csv
+  edges_csv: /home/ota/analysis_output_pytorch-1.0.0_nn_full_scope_design_layers/edges.csv
+  unresolved_csv: /home/ota/analysis_output_pytorch-1.0.0_nn_full_scope_design_layers/unresolved.csv
+  graphml: /home/ota/analysis_output_pytorch-1.0.0_nn_full_scope_design_layers/graph.graphml
+  manifest: /home/ota/analysis_output_pytorch-1.0.0_nn_full_scope_design_layers/manifest.yaml

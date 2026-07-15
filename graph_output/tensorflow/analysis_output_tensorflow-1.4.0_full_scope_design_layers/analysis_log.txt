@@ -1,0 +1,90 @@
+Python Class Dependency Analysis Log
+====================================
+generated_at: 2026-07-15T02:16:48.546466+00:00
+config_file: /home/ota/PythonClassNetworkAnalysis/parse_config_tensorflow-1.4.0_full_scope_design_layers.yaml
+project_root: /home/ota
+
+indexed_modules: 1332
+indexed_classes: 1227
+output_nodes: 1592
+output_edges: 4794
+unresolved_refs: 15
+
+traversal_mode: full_scope
+edge_profile: design_layers
+
+file_patterns:
+  - *.py
+  - *.pyi
+
+scope:
+  include_packages: ['tensorflow']
+  exclude_packages: ['tests', 'test', 'benchmarks']
+
+dependency_options:
+  inheritance: True
+  type_annotations: True
+  attribute_annotations: True
+  constructor_calls: True
+  class_attributes: True
+  imports: False
+  method_calls: False
+  string_annotations: True
+
+edge_type_counts:
+  class_attribute_alias: 57
+  class_attribute_constant: 105
+  class_attribute_reference: 3
+  constructor_call_composition: 257
+  constructor_call_exception: 1691
+  constructor_call_external: 533
+  constructor_call_temporary: 1267
+  dynamic_base_factory: 62
+  inheritance: 819
+
+base_edge_type_counts:
+  class_attribute: 165
+  constructor_call: 3748
+  inheritance: 881
+
+dependency_layer_counts:
+  composition: 257
+  configuration: 165
+  control_flow_or_error: 1691
+  external_dependency: 533
+  inheritance: 881
+  temporary_object: 1267
+
+class_attribute_ignore_patterns:
+  - _parameter_constraints
+  - *._parameter_constraints
+  - __metadata_request__*
+  - *.UNUSED
+  - metadata_routing.*
+  - *.metadata_routing.*
+
+outputs:
+  graph_json: /home/ota/analysis_output_tensorflow-1.4.0_full_scope_design_layers/graph.json
+  unresolved_json: /home/ota/analysis_output_tensorflow-1.4.0_full_scope_design_layers/unresolved.json
+  nodes_csv: /home/ota/analysis_output_tensorflow-1.4.0_full_scope_design_layers/nodes.csv
+  edges_csv: /home/ota/analysis_output_tensorflow-1.4.0_full_scope_design_layers/edges.csv
+  unresolved_csv: /home/ota/analysis_output_tensorflow-1.4.0_full_scope_design_layers/unresolved.csv
+  graphml: /home/ota/analysis_output_tensorflow-1.4.0_full_scope_design_layers/graph.graphml
+  manifest: /home/ota/analysis_output_tensorflow-1.4.0_full_scope_design_layers/manifest.yaml
+
+first_unresolved_refs:
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/framework/sparse_tensor.py:34: _TensorLike (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:1425: _object (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:152: _object (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:332: _object (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:1484: _object (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:269: _object (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:302: _object (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:1546: _object (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:207: _object (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:1344: _object (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:908: _object (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:543: _object (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:661: _object (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:687: _object (base_class_not_resolved)
+  - /home/ota/VM/tensorflow/tensorflow-1.4.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py:1405: _object (base_class_not_resolved)

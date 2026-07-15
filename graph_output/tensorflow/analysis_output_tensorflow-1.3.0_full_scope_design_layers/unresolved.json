@@ -1,0 +1,107 @@
+[
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/framework/sparse_tensor.py",
+    "line": 34,
+    "symbol": "_TensorLike",
+    "context": "class SparseTensor(_TensorLike):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 1326,
+    "symbol": "_object",
+    "context": "class BufferedInputStream(_object):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 112,
+    "symbol": "_object",
+    "context": "class CheckpointReader(_object):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 276,
+    "symbol": "_object",
+    "context": "class EventsWriter(_object):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 1381,
+    "symbol": "_object",
+    "context": "class FileStatistics(_object):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 213,
+    "symbol": "_object",
+    "context": "class PyRecordReader(_object):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 246,
+    "symbol": "_object",
+    "context": "class PyRecordWriter(_object):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 1443,
+    "symbol": "_object",
+    "context": "class ServerInterface(_object):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 159,
+    "symbol": "_object",
+    "context": "class StatSummarizer(_object):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 1245,
+    "symbol": "_object",
+    "context": "class Status(_object):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 849,
+    "symbol": "_object",
+    "context": "class TF_AttrMetadata(_object):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 484,
+    "symbol": "_object",
+    "context": "class TF_Buffer(_object):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 602,
+    "symbol": "_object",
+    "context": "class TF_Input(_object):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 628,
+    "symbol": "_object",
+    "context": "class TF_Output(_object):",
+    "reason": "base_class_not_resolved"
+  },
+  {
+    "file": "/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+    "line": 1306,
+    "symbol": "_object",
+    "context": "class WritableFile(_object):",
+    "reason": "base_class_not_resolved"
+  }
+]

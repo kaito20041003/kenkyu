@@ -1,0 +1,74 @@
+Python Class Dependency Analysis Log
+====================================
+generated_at: 2026-07-15T02:19:55.406290+00:00
+config_file: /home/ota/PythonClassNetworkAnalysis/parse_config_tensorflow-2.11.0_keras_full_scope_design_layers.yaml
+project_root: /home/ota
+
+indexed_modules: 575
+indexed_classes: 603
+output_nodes: 737
+output_edges: 2234
+unresolved_refs: 0
+
+traversal_mode: full_scope
+edge_profile: design_layers
+
+file_patterns:
+  - *.py
+  - *.pyi
+
+scope:
+  include_packages: ['keras']
+  exclude_packages: ['tests', 'test', 'benchmarks']
+
+dependency_options:
+  inheritance: True
+  type_annotations: True
+  attribute_annotations: True
+  constructor_calls: True
+  class_attributes: True
+  imports: False
+  method_calls: False
+  string_annotations: True
+
+edge_type_counts:
+  class_attribute_constant: 2
+  constructor_call_composition: 186
+  constructor_call_exception: 786
+  constructor_call_external: 353
+  constructor_call_temporary: 326
+  dynamic_base_factory: 6
+  inheritance: 570
+  type_annotation: 5
+
+base_edge_type_counts:
+  class_attribute: 2
+  constructor_call: 1651
+  inheritance: 576
+  type_annotation: 5
+
+dependency_layer_counts:
+  composition: 186
+  configuration: 2
+  control_flow_or_error: 786
+  external_dependency: 353
+  inheritance: 576
+  temporary_object: 326
+  type_dependency: 5
+
+class_attribute_ignore_patterns:
+  - _parameter_constraints
+  - *._parameter_constraints
+  - __metadata_request__*
+  - *.UNUSED
+  - metadata_routing.*
+  - *.metadata_routing.*
+
+outputs:
+  graph_json: /home/ota/analysis_output_tensorflow-2.11.0_keras_full_scope_design_layers/graph.json
+  unresolved_json: /home/ota/analysis_output_tensorflow-2.11.0_keras_full_scope_design_layers/unresolved.json
+  nodes_csv: /home/ota/analysis_output_tensorflow-2.11.0_keras_full_scope_design_layers/nodes.csv
+  edges_csv: /home/ota/analysis_output_tensorflow-2.11.0_keras_full_scope_design_layers/edges.csv
+  unresolved_csv: /home/ota/analysis_output_tensorflow-2.11.0_keras_full_scope_design_layers/unresolved.csv
+  graphml: /home/ota/analysis_output_tensorflow-2.11.0_keras_full_scope_design_layers/graph.graphml
+  manifest: /home/ota/analysis_output_tensorflow-2.11.0_keras_full_scope_design_layers/manifest.yaml

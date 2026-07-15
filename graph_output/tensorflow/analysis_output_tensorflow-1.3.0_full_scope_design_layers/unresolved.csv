@@ -1,0 +1,16 @@
+file,line,symbol,context,reason
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/framework/sparse_tensor.py,34,_TensorLike,class SparseTensor(_TensorLike):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,1326,_object,class BufferedInputStream(_object):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,112,_object,class CheckpointReader(_object):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,276,_object,class EventsWriter(_object):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,1381,_object,class FileStatistics(_object):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,213,_object,class PyRecordReader(_object):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,246,_object,class PyRecordWriter(_object):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,1443,_object,class ServerInterface(_object):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,159,_object,class StatSummarizer(_object):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,1245,_object,class Status(_object):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,849,_object,class TF_AttrMetadata(_object):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,484,_object,class TF_Buffer(_object):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,602,_object,class TF_Input(_object):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,628,_object,class TF_Output(_object):,base_class_not_resolved
+/home/ota/VM/tensorflow/tensorflow-1.3.0/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py,1306,_object,class WritableFile(_object):,base_class_not_resolved

@@ -1,0 +1,67 @@
+Python Class Dependency Analysis Log
+====================================
+generated_at: 2026-07-13T03:43:24.167069+00:00
+config_file: /home/ota/PythonClassNetworkAnalysis/parse_config_pytorch-0.4.0_nn_full_scope_design_layers.yaml
+project_root: /home/ota
+
+indexed_modules: 55
+indexed_classes: 153
+output_nodes: 176
+output_edges: 323
+unresolved_refs: 0
+
+traversal_mode: full_scope
+edge_profile: design_layers
+
+file_patterns:
+  - *.py
+  - *.pyi
+
+scope:
+  include_packages: ['torch.nn']
+  exclude_packages: ['tests', 'test', 'benchmarks']
+
+dependency_options:
+  inheritance: True
+  type_annotations: True
+  attribute_annotations: True
+  constructor_calls: True
+  class_attributes: True
+  imports: False
+  method_calls: False
+  string_annotations: True
+
+edge_type_counts:
+  constructor_call_composition: 68
+  constructor_call_exception: 70
+  constructor_call_external: 26
+  constructor_call_temporary: 8
+  inheritance: 151
+
+base_edge_type_counts:
+  constructor_call: 172
+  inheritance: 151
+
+dependency_layer_counts:
+  composition: 68
+  control_flow_or_error: 70
+  external_dependency: 26
+  inheritance: 151
+  temporary_object: 8
+
+class_attribute_ignore_patterns:
+  - _parameter_constraints
+  - *._parameter_constraints
+  - __metadata_request__*
+  - *.UNUSED
+  - metadata_routing.*
+  - *.metadata_routing.*
+
+outputs:
+  graph_json: /home/ota/analysis_output_pytorch-0.4.0_nn_full_scope_design_layers/graph.json
+  unresolved_json: /home/ota/analysis_output_pytorch-0.4.0_nn_full_scope_design_layers/unresolved.json
+  nodes_csv: /home/ota/analysis_output_pytorch-0.4.0_nn_full_scope_design_layers/nodes.csv
+  edges_csv: /home/ota/analysis_output_pytorch-0.4.0_nn_full_scope_design_layers/edges.csv
+  unresolved_csv: /home/ota/analysis_output_pytorch-0.4.0_nn_full_scope_design_layers/unresolved.csv
+  graphml: /home/ota/analysis_output_pytorch-0.4.0_nn_full_scope_design_layers/graph.graphml
+  manifest: /home/ota/analysis_output_pytorch-0.4.0_nn_full_scope_design_layers/manifest.yaml

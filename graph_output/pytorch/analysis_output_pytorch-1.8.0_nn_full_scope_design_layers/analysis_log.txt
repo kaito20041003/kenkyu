@@ -1,0 +1,80 @@
+Python Class Dependency Analysis Log
+====================================
+generated_at: 2026-07-13T03:47:59.648169+00:00
+config_file: /home/ota/PythonClassNetworkAnalysis/parse_config_pytorch-1.8.0_nn_full_scope_design_layers.yaml
+project_root: /home/ota
+
+indexed_modules: 95
+indexed_classes: 269
+output_nodes: 342
+output_edges: 986
+unresolved_refs: 0
+
+traversal_mode: full_scope
+edge_profile: design_layers
+
+file_patterns:
+  - *.py
+  - *.pyi
+
+scope:
+  include_packages: ['torch.nn']
+  exclude_packages: ['tests', 'test', 'benchmarks']
+
+dependency_options:
+  inheritance: True
+  type_annotations: True
+  attribute_annotations: True
+  constructor_calls: True
+  class_attributes: True
+  imports: False
+  method_calls: False
+  string_annotations: True
+
+edge_type_counts:
+  attribute_annotation: 34
+  class_attribute_alias: 33
+  class_attribute_constant: 5
+  class_attribute_reference: 1
+  class_attribute_registry: 3
+  constructor_call_composition: 114
+  constructor_call_exception: 153
+  constructor_call_external: 18
+  constructor_call_temporary: 36
+  dynamic_base_factory: 1
+  inheritance: 270
+  type_annotation: 318
+
+base_edge_type_counts:
+  attribute_annotation: 34
+  class_attribute: 42
+  constructor_call: 321
+  inheritance: 271
+  type_annotation: 318
+
+dependency_layer_counts:
+  composition: 148
+  configuration: 39
+  control_flow_or_error: 153
+  external_dependency: 18
+  inheritance: 271
+  registration: 3
+  temporary_object: 36
+  type_dependency: 318
+
+class_attribute_ignore_patterns:
+  - _parameter_constraints
+  - *._parameter_constraints
+  - __metadata_request__*
+  - *.UNUSED
+  - metadata_routing.*
+  - *.metadata_routing.*
+
+outputs:
+  graph_json: /home/ota/analysis_output_pytorch-1.8.0_nn_full_scope_design_layers/graph.json
+  unresolved_json: /home/ota/analysis_output_pytorch-1.8.0_nn_full_scope_design_layers/unresolved.json
+  nodes_csv: /home/ota/analysis_output_pytorch-1.8.0_nn_full_scope_design_layers/nodes.csv
+  edges_csv: /home/ota/analysis_output_pytorch-1.8.0_nn_full_scope_design_layers/edges.csv
+  unresolved_csv: /home/ota/analysis_output_pytorch-1.8.0_nn_full_scope_design_layers/unresolved.csv
+  graphml: /home/ota/analysis_output_pytorch-1.8.0_nn_full_scope_design_layers/graph.graphml
+  manifest: /home/ota/analysis_output_pytorch-1.8.0_nn_full_scope_design_layers/manifest.yaml

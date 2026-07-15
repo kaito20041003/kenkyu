@@ -1,0 +1,54 @@
+analysis_name: class_dependency_analysis
+generated_at: '2026-07-15T02:19:05.209881+00:00'
+config_file: /home/ota/PythonClassNetworkAnalysis/parse_config_tensorflow-2.6.0_keras_full_scope_design_layers.yaml
+project_root: /home/ota
+root_files: []
+entry_classes: []
+search_paths:
+- /home/ota/VM/tensorflow/tensorflow-2.6.0/lib/python3.9/site-packages
+indexed_modules: 605
+indexed_classes: 602
+output_nodes: 730
+output_edges: 2058
+unresolved_refs: 0
+options:
+  traversal_mode: full_scope
+  edge_profile: design_layers
+  max_depth: null
+  include_external: true
+  follow_external: false
+  include_private_classes: true
+  include_nested_classes: true
+  dependencies:
+    inheritance: true
+    type_annotations: true
+    attribute_annotations: true
+    constructor_calls: true
+    class_attributes: true
+    imports: false
+    method_calls: false
+    string_annotations: true
+  scope:
+    include_packages:
+    - keras
+    exclude_packages:
+    - tests
+    - test
+    - benchmarks
+  file_patterns:
+  - '*.py'
+  - '*.pyi'
+  class_attribute_ignore_patterns:
+  - _parameter_constraints
+  - '*._parameter_constraints'
+  - __metadata_request__*
+  - '*.UNUSED'
+  - metadata_routing.*
+  - '*.metadata_routing.*'
+outputs:
+  graph_json: /home/ota/analysis_output_tensorflow-2.6.0_keras_full_scope_design_layers/graph.json
+  unresolved_json: /home/ota/analysis_output_tensorflow-2.6.0_keras_full_scope_design_layers/unresolved.json
+  nodes_csv: /home/ota/analysis_output_tensorflow-2.6.0_keras_full_scope_design_layers/nodes.csv
+  edges_csv: /home/ota/analysis_output_tensorflow-2.6.0_keras_full_scope_design_layers/edges.csv
+  unresolved_csv: /home/ota/analysis_output_tensorflow-2.6.0_keras_full_scope_design_layers/unresolved.csv
+  graphml: /home/ota/analysis_output_tensorflow-2.6.0_keras_full_scope_design_layers/graph.graphml
