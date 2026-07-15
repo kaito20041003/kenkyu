@@ -1,0 +1,74 @@
+Python Class Dependency Analysis Log
+====================================
+generated_at: 2026-07-13T01:53:08.286788+00:00
+config_file: /home/ota/PythonClassNetworkAnalysis/parse_config_sklearn-0.17.1_full_scope_design_layers.yaml
+project_root: /home/ota
+
+indexed_modules: 341
+indexed_classes: 401
+output_nodes: 452
+output_edges: 1195
+unresolved_refs: 0
+
+traversal_mode: full_scope
+edge_profile: design_layers
+
+file_patterns:
+  - *.py
+  - *.pyi
+
+scope:
+  include_packages: ['sklearn']
+  exclude_packages: ['tests', 'test', 'benchmarks']
+
+dependency_options:
+  inheritance: True
+  type_annotations: True
+  attribute_annotations: True
+  constructor_calls: True
+  class_attributes: True
+  imports: False
+  method_calls: False
+  string_annotations: True
+
+edge_type_counts:
+  class_attribute_alias: 11
+  class_attribute_constant: 2
+  class_attribute_registry: 17
+  constructor_call_composition: 40
+  constructor_call_exception: 463
+  constructor_call_external: 21
+  constructor_call_temporary: 150
+  dynamic_base_factory: 32
+  inheritance: 459
+
+base_edge_type_counts:
+  class_attribute: 30
+  constructor_call: 674
+  inheritance: 491
+
+dependency_layer_counts:
+  composition: 40
+  configuration: 13
+  control_flow_or_error: 463
+  external_dependency: 21
+  inheritance: 491
+  registration: 17
+  temporary_object: 150
+
+class_attribute_ignore_patterns:
+  - _parameter_constraints
+  - *._parameter_constraints
+  - __metadata_request__*
+  - *.UNUSED
+  - metadata_routing.*
+  - *.metadata_routing.*
+
+outputs:
+  graph_json: /home/ota/analysis_output_sklearn-0.17.1_full_scope_design_layers/graph.json
+  unresolved_json: /home/ota/analysis_output_sklearn-0.17.1_full_scope_design_layers/unresolved.json
+  nodes_csv: /home/ota/analysis_output_sklearn-0.17.1_full_scope_design_layers/nodes.csv
+  edges_csv: /home/ota/analysis_output_sklearn-0.17.1_full_scope_design_layers/edges.csv
+  unresolved_csv: /home/ota/analysis_output_sklearn-0.17.1_full_scope_design_layers/unresolved.csv
+  graphml: /home/ota/analysis_output_sklearn-0.17.1_full_scope_design_layers/graph.graphml
+  manifest: /home/ota/analysis_output_sklearn-0.17.1_full_scope_design_layers/manifest.yaml
